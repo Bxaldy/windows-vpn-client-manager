@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\xrabbit-thumb.ico</ApplicationIcon>
+    <UseWindowsForms>False</UseWindowsForms>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>BuiKuk.snk</AssemblyOriginatorKeyFile>
+    <Company></Company>
+    <Authors>Buicu Ionut Gabriel</Authors>
+    <Copyright>All Rights To the Author</Copyright>
+    <Version>1.3.7</Version>
+    <AssemblyVersion>1.3.7</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\background_login.jpg" />
+    <None Remove="Resources\background_login2.jpg" />
+    <None Remove="Resources\bakground_login2.jpg" />
+    <None Remove="Resources\logo_integrisoft.png" />
+    <None Remove="Resources\xrabbit-thumb.ico" />
+    <None Remove="Resources\xrabbit.ico" />
+    <None Remove="xrabbit.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\xrabbit-thumb.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="System.DirectoryServices" Version="8.0.0" />
+    <PackageReference Include="System.Management.Automation" Version="7.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BuiKuVPN\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\background_login.jpg" />
+    <Resource Include="Resources\background_login2.jpg" />
+    <Resource Include="Resources\logo_integrisoft.png" />
+    <Resource Include="Resources\xrabbit.ico" />
+  </ItemGroup>
+
+</Project>

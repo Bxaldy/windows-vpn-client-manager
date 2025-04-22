@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuiKuVPN", "BuiKuVPN.csproj", "{5F42C153-A44A-47D1-A374-147787421AE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F42C153-A44A-47D1-A374-147787421AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F42C153-A44A-47D1-A374-147787421AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F42C153-A44A-47D1-A374-147787421AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F42C153-A44A-47D1-A374-147787421AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7448792-3073-41EC-84DE-9CFCDDED6703}
+	EndGlobalSection
+EndGlobal
