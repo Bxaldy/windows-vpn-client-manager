@@ -74,7 +74,8 @@ Users authenticate via the Corporate LDAP.
 
 Application checks if the user is part of the vpn_app group in the VPN LDAP.
 
-Queries data from an SQL Server Database (I used a secure version of vpn-connection-aggregator that updates all the vpn clients according to my needs every few seconds) -> https://github.com/Bxaldy/vpn-connection-aggregator
+Queries data from an SQL Server Database (I used a secure version of [VPN-CONNECTION-AGGREGATOR](https://github.com/Bxaldy/vpn-connection-aggregator) that updates all the vpn clients according to my needs every few seconds - I created the aggregator for this WPF app)  
+
 
 Shows VPNs in a datatable
 
@@ -118,7 +119,7 @@ There are more mature open-source alternatives available; this project was built
 
 I drank a lot of beer making this, if you ever want to send me a beer as compansation for this 🐂💩, this is my rev @gabe2099
 
-![SpincatGIF](https://github.com/user-attachments/assets/51f863d9-7869-4ba1-88f5-ef563b3c319f)
+  ![SpincatGIF](https://github.com/user-attachments/assets/51f863d9-7869-4ba1-88f5-ef563b3c319f)
 
 
 
