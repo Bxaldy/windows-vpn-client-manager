@@ -31,12 +31,10 @@ namespace BuiKuVPN
     public partial class SysMainWindow : Window
     {
 
-        //Conn string
-        //
         private readonly string _dataSource = ConfigurationManager.ConnectionStrings["DataSource"].ConnectionString;
         private readonly string _database = "Initial Catalog=vpn_clienti";
         private readonly string _userId = "User Id=sa";
-        private readonly string _password = "Password=26.Februarie!";
+        private readonly string _password = "Password=Password";
         private readonly string _connectionString;
         //
         //
